@@ -1,0 +1,103 @@
+/* style our navber */
+.navbar{
+	padding: 1rem 4rem;
+	z-index: 1000;
+	background: #131313 !important;
+}
+.navbar-brand{
+	font-size: 1.8rem;
+	font-weight: 700;
+}
+.nav-item a{
+	color: #fff !important;
+	font-size: 1.1rem;
+}
+.nav-item a:hover{
+	color: #64a578 !important;
+}
+.btn-success{
+	width: 130px;
+}
+.btn-success:hover{
+	background: white;
+	color: #64a578 !important;
+}
+.mid{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.mid video{
+	width: 100%;
+	height: 100%;
+	object-fit:cover;
+	pointer-events: none;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.mid .hero{
+	position: relative;
+}
+.mid .hero p{
+	font-size: 1.2rem;
+	padding: 1.1rem;
+	letter-spacing: 0.2px;
+}
+.about{
+	background-color: #000;
+}
+.about .text{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: auto;
+}
+.text h6{
+	color: #64a578;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+.text h2{
+	font-size: 2.6rem;
+	font-weight: bold;
+}
+.text p{
+	font-size: 1.2rem;
+}
+.rd{
+	font-size: 1.2rem;
+	color: #000;
+}
+.sa{
+	font-size: 0.8rem;
+	color: #000c;
+
+}
+.services{
+	background: #000;
+}
+.one{
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	border-radius: 7px;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem 1.5rem;
+	
+}
+.ass .btn{
+	padding: 10px 12px;
+	border-radius: 20px;
+	transition: padding 0.5s;
+}
+.ass .btn:hover{
+	padding: 10px 22px;
+}
